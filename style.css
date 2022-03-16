@@ -1,0 +1,262 @@
+/*font weights
+Bold is 700
+Light is 300
+*/
+
+
+/*for gradient background*/ 
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg,#000000,  #654420);
+  background-size: 600% 100%; 
+  animation: gradient 16s linear infinite; 
+  animation-direction: alternate;
+  
+}
+
+@keyframes gradient {
+  0% {background-position: 0%} 
+  100% {background-position:100%}
+}
+
+
+.page-2-p {
+  color: white;
+  margin-top: 350px;
+  margin-left: 33.333%;
+  width: 33.333%;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  font-size: 15px;
+
+}
+
+.next-page-2 {
+margin-left: 62.66%;
+margin-top: 150px;
+font-weight: 700;
+font-size: 15px;
+letter-spacing: 2px;
+}
+
+.previous-page-2 {
+  margin-left: 33.333%;
+  margin-top: -15px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+
+}
+
+/*for question text*/
+#question {
+  margin-left: 33.333%;
+  width: 46%;
+  margin-top: 150px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  color: white;
+}
+
+
+/*buttons, not my own code for the design of the buttons*/
+.btns {
+  font-family: 'Roboto Slab';
+  display: block;
+  margin-bottom: 40px;
+  margin-top: 55px;
+  margin-left: 33.333%;
+  width: 33.333%;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btns:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.btns:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.results-p {
+  margin-left: 33.333%;
+  width: 46%;
+  margin-top: 150px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  color: white;
+}
+
+
+/*fade-in text*/
+.intro-p {
+    color: white;
+    margin-top: 350px;
+    margin-left: 12.667%;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    font-size: 30px;
+
+    animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+
+.start-game {
+    margin-left: 79.333%;
+    margin-top: -175px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.restart-game {
+  margin-left: 33.333%;
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+/*fade-in text*/
+a:link{
+    text-decoration: none;
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+    text-decoration-line: line-through;
+
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+
+
+/*for phone screen*/
+
+@media (max-width: 600px) { 
+  
+  .start-game {
+    margin-left: 12.667%;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.intro-p {
+  color: white;
+  margin-top: 350px;
+  margin-left: 12.667%;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.page-2-p {
+  color: white;
+  margin-top: 350px;
+  margin-left: 33.333%;
+  width: 52.333%;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+  /*for question text*/
+#question {
+  margin-left: 33.333%;
+  width: 52.333%;
+  margin-top: 150px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  color: white;
+}
+
+} 
+
+
+
+
